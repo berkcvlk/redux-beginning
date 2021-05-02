@@ -1,5 +1,6 @@
 import { configureStore } from "@reduxjs/toolkit";
 
+/** Slices to merge to the store */
 import counterSlice from "./counter";
 import authSlice from "./auth";
 
